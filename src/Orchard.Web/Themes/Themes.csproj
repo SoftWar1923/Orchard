@@ -89,6 +89,11 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="T5OTheme\Styles\default-grid.css" />
+    <Content Include="T5OTheme\Styles\Site.css" />
+    <Content Include="T5OTheme\Theme.png" />
+    <Content Include="T5OTheme\Theme.txt" />
+    <Content Include="T5OTheme\ThemeZonePreview.png" />
     <Content Include="TheAdmin\Scripts\admin.js" />
     <Content Include="TheAdmin\Styles\ie.css" />
     <Content Include="TheAdmin\Styles\ie7.css" />
@@ -112,6 +117,11 @@
     <Content Include="TheAdmin\Styles\images\menuOpenHover.gif" />
     <Content Include="TheAdmin\Styles\images\vinesBackgroundBottom.gif" />
     <Content Include="TheAdmin\Styles\images\menu-filter.png" />
+    <Content Include="SoftWar\Styles\default-grid.css" />
+    <Content Include="SoftWar\Styles\Site.css" />
+    <Content Include="SoftWar\Theme.png" />
+    <Content Include="SoftWar\Theme.txt" />
+    <Content Include="SoftWar\ThemeZonePreview.png" />
     <Content Include="TheThemeMachine\Styles\default-grid.css" />
     <Content Include="TheThemeMachine\Styles\Site.css" />
     <Content Include="TheThemeMachine\Theme.png" />
@@ -206,6 +216,94 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="SoftWar\Placement.info" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="SoftWar\Styles\Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="T5OTheme\Placement.info" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="T5OTheme\Styles\Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="T5OTheme\Views\BadgeOfHonor.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="T5OTheme\Views\Branding.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="T5OTheme\Views\Layout.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="T5OTheme\Views\Pager.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="T5OTheme\Views\Pager.First.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="T5OTheme\Views\Pager.Last.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="SoftWar\Views\EditorTemplates\Parts.Comment.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="SoftWar\Views\Elements\Button.cshtml" />
+    <Content Include="SoftWar\Views\Elements\Column.cshtml" />
+    <Content Include="SoftWar\Views\Elements\EmailField.cshtml" />
+    <Content Include="SoftWar\Views\Elements\Grid.cshtml" />
+    <Content Include="SoftWar\Views\Elements\Row.cshtml" />
+    <Content Include="SoftWar\Views\Elements\TextArea.cshtml" />
+    <Content Include="SoftWar\Views\Elements\TextField.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="SoftWar\Views\BadgeOfHonor.cshtml" />
+    <Content Include="SoftWar\Views\CommentReplyButton.cshtml" />
+    <Content Include="SoftWar\Views\CommentText.cshtml" />
+    <Content Include="SoftWar\Views\Document.cshtml" />
+    <Content Include="SoftWar\Views\Layout.cshtml" />
+    <Content Include="SoftWar\Views\LogOn.cshtml" />
+    <Content Include="SoftWar\Views\Menu-main-menu.cshtml" />
+    <Content Include="SoftWar\Views\Menu.cshtml" />
+    <Content Include="SoftWar\Views\MenuItem.cshtml" />
+    <Content Include="SoftWar\Views\OpenAuthLogOn.cshtml" />
+    <Content Include="SoftWar\Views\Pager.cshtml" />
+    <Content Include="SoftWar\Views\Pager.First.cshtml" />
+    <Content Include="SoftWar\Views\Pager.Last.cshtml" />
+    <Content Include="SoftWar\Views\Pager.Next.cshtml" />
+    <Content Include="SoftWar\Views\Pager.Previous.cshtml" />
+    <Content Include="SoftWar\Views\Parts.Blogs.BlogArchives.cshtml" />
+    <Content Include="SoftWar\Views\Parts.Blogs.RecentBlogPosts.cshtml" />
+    <Content Include="SoftWar\Views\Parts.Comment.cshtml" />
+    <Content Include="SoftWar\Views\Parts.CommentForm.cshtml" />
+    <Content Include="SoftWar\Views\Parts.Comments.Count.cshtml" />
+    <Content Include="SoftWar\Views\Parts.Common.Body.cshtml" />
+    <Content Include="SoftWar\Views\Parts.Common.Body.Summary.cshtml" />
+    <Content Include="SoftWar\Views\Parts.Common.Metadata.cshtml" />
+    <Content Include="SoftWar\Views\Parts.Common.Metadata.Summary.cshtml" />
+    <Content Include="SoftWar\Views\Parts.ListOfComments.cshtml" />
+    <Content Include="SoftWar\Views\Parts.TagCloud.cshtml" />
+    <Content Include="SoftWar\Views\Parts.Tags.ShowTags.cshtml" />
+    <Content Include="SoftWar\Views\Parts.Tags.ShowTags.Details.cshtml" />
+    <Content Include="SoftWar\Views\Parts.Title.Summary.cshtml" />
+    <Content Include="SoftWar\Views\Register.cshtml" />
+    <Content Include="SoftWar\Views\Template.Comment.Notification.cshtml" />
+    <Content Include="SoftWar\Views\Wrapper-BlogPost.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="SoftWar\Views\EditorTemplates\Parts\BootstrapSettings.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="SoftWar\Views\Orchard.Users\Account\ChangePassword.cshtml" />
+    <Content Include="SoftWar\Views\Orchard.Users\Account\LostPassword.cshtml" />
+    <Content Include="SoftWar\Views\Orchard.Users\Account\RequestLostPassword.cshtml" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

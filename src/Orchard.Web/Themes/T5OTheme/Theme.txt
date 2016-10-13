@@ -1,0 +1,7 @@
+﻿Name: Traveller 5 Online Theme
+Author: manoguar, chikoserio, barradepan, iandiaz
+Description: Description here.
+Version: 1.10.1
+Tags: Awesome
+Website: http://www.traveller5online.com
+Zones: Header, Navigation, Featured, BeforeMain, AsideFirst, Messages, BeforeContent, Content, AfterContent, AsideSecond, AfterMain, TripelFirst, TripelSecond, TripelThird, FooterQuadFirst, FooterQuadSecond, FooterQuadThird, FooterQuadFourth, Footer

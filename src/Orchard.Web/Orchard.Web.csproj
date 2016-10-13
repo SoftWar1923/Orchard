@@ -180,6 +180,8 @@
   <ItemGroup>
     <Content Include="Config\Sites.config" />
     <Content Include="packages.config" />
+    <None Include="Properties\PublishProfiles\softwar - FTP.pubxml" />
+    <None Include="Properties\PublishProfiles\softwar - Web Deploy.pubxml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
